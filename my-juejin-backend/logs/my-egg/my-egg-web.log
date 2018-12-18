@@ -1,0 +1,595 @@
+2018-12-11 11:39:31,594 WARN 4218 [-/127.0.0.1/-/8ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:39:31,596 WARN 4218 [-/127.0.0.1/-/10ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 4218
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 11:47:59,691 WARN 5947 [-/127.0.0.1/-/42ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:47:59,695 WARN 5947 [-/127.0.0.1/-/46ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5947
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 11:48:05,710 WARN 5947 [-/127.0.0.1/-/2ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:48:05,710 WARN 5947 [-/127.0.0.1/-/2ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5947
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 11:48:14,872 WARN 5947 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:48:14,875 WARN 5947 [-/127.0.0.1/-/4ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5947
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 11:50:59,696 WARN 5947 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:50:59,696 WARN 5947 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5947
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 11:51:23,613 WARN 5947 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:51:23,613 WARN 5947 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5947
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 11:51:41,941 WARN 5947 [-/127.0.0.1/-/0ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:51:41,941 WARN 5947 [-/127.0.0.1/-/0ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5947
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 11:52:12,025 WARN 5947 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:52:12,025 WARN 5947 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5947
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 11:53:14,170 WARN 6004 [-/127.0.0.1/-/34ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 11:53:14,174 WARN 6004 [-/127.0.0.1/-/37ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6004
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:52:15,775 WARN 6068 [-/127.0.0.1/-/34ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:52:15,778 WARN 6068 [-/127.0.0.1/-/37ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6068
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:52:39,954 WARN 6068 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:52:39,954 WARN 6068 [-/127.0.0.1/-/2ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6068
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:55:06,552 WARN 6182 [-/127.0.0.1/-/49ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:55:06,558 WARN 6182 [-/127.0.0.1/-/55ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6182
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:56:24,427 WARN 6182 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:56:24,428 WARN 6182 [-/127.0.0.1/-/2ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6182
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:57:02,822 WARN 6309 [-/127.0.0.1/-/31ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:57:02,825 WARN 6309 [-/127.0.0.1/-/33ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6309
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:57:17,058 WARN 6309 [-/127.0.0.1/-/2ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:57:17,059 WARN 6309 [-/127.0.0.1/-/3ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6309
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:58:01,914 WARN 6316 [-/127.0.0.1/-/30ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:58:01,917 WARN 6316 [-/127.0.0.1/-/32ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6316
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:58:27,668 WARN 6316 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:58:27,668 WARN 6316 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6316
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:59:07,493 WARN 6316 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:59:07,493 WARN 6316 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6316
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:59:32,160 WARN 6316 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:59:32,160 WARN 6316 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6316
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 12:59:53,230 WARN 6327 [-/127.0.0.1/-/35ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 12:59:53,234 WARN 6327 [-/127.0.0.1/-/40ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6327
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:02:19,615 WARN 6354 [-/127.0.0.1/-/47ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:02:19,619 WARN 6354 [-/127.0.0.1/-/50ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6354
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:05:20,641 WARN 6369 [-/127.0.0.1/-/36ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:05:20,646 WARN 6369 [-/127.0.0.1/-/40ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6369
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:07:28,005 WARN 6388 [-/127.0.0.1/-/29ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:07:28,007 WARN 6388 [-/127.0.0.1/-/31ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6388
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:07:34,227 WARN 6388 [-/127.0.0.1/-/2ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:07:34,228 WARN 6388 [-/127.0.0.1/-/2ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6388
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:07:45,726 WARN 6388 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:07:45,728 WARN 6388 [-/127.0.0.1/-/3ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6388
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:07:47,244 WARN 6388 [-/127.0.0.1/-/0ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:07:47,244 WARN 6388 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6388
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:08:17,628 WARN 6388 [-/127.0.0.1/-/0ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:08:17,629 WARN 6388 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6388
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:09:00,064 WARN 6408 [-/127.0.0.1/-/33ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:09:00,067 WARN 6408 [-/127.0.0.1/-/35ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6408
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:09:39,562 WARN 6417 [-/127.0.0.1/-/30ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:09:39,565 WARN 6417 [-/127.0.0.1/-/32ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6417
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:09:43,738 WARN 6417 [-/127.0.0.1/-/2ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:09:43,739 WARN 6417 [-/127.0.0.1/-/3ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6417
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:20:47,021 WARN 6417 [-/127.0.0.1/-/1ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:20:47,022 WARN 6417 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6417
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:23:57,289 WARN 6417 [-/127.0.0.1/-/5ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:23:57,291 WARN 6417 [-/127.0.0.1/-/7ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6417
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:24:08,461 WARN 6417 [-/127.0.0.1/-/0ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:24:08,462 WARN 6417 [-/127.0.0.1/-/1ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6417
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:29:40,445 WARN 6544 [-/127.0.0.1/-/32ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:29:40,448 WARN 6544 [-/127.0.0.1/-/35ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6544
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-11 13:33:17,922 WARN 6571 [-/127.0.0.1/-/35ms POST /add-user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-11 13:33:17,927 WARN 6571 [-/127.0.0.1/-/39ms POST /add-user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/lucas/Documents/MyProject/my-egg/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6571
+hostname: wangzhiqiangdeMacBook-Air.local
+

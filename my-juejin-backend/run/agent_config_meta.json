@@ -1,0 +1,272 @@
+{
+  "keys": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "headerName": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "useSession": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "path": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "hostname": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "port": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "port": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "user": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "password": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "database": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js",
+      "charset": "/Users/lucas/Documents/MyProject/my-egg/config/config.default.js"
+    },
+    "default": {
+      "database": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-mysql/config/config.default.js"
+    },
+    "app": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-mysql/config/config.default.js",
+    "agent": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-mysql/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "name": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "version": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "description": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "main": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "dev": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "license": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "env": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "level": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/config.default.js"
+}

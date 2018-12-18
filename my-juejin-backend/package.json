@@ -1,0 +1,18 @@
+{
+  "name": "my-egg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.14.1",
+    "egg-bin": "^4.9.0",
+    "egg-cors": "^2.1.2",
+    "egg-mysql": "^3.0.0"
+  }
+}
