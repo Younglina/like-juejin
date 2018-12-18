@@ -1,0 +1,43 @@
+@import './assets/iconfont.scss';
+
+html{
+  font-size: 12px;
+}
+html,body,#app,#home,.content-main{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+  background-color: #f4f5f5;
+    header,
+    .top-nav,
+    .top-nav nav {
+      width: 100%;
+    }
+    .content-show{
+      max-width: 960px;
+      margin: 0 auto;
+      background-color: white;
+    }
+  }
+  input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    li {
+      cursor: pointer;
+    }
+  }
+  .scrollbar-track-y{
+    z-index: 200 !important;
+  }
