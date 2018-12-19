@@ -99,8 +99,7 @@ export default {
           StorageClass: "STANDARD",
           Body: e.target.files[0], // 上传文件对象
           onProgress: function(progressData) {
-            self.avator = progressData.Location;
-            console.log(JSON.stringify(progressData));
+            self.user.avator = progressData.Location;
           }
         },
         function(err, data) {
@@ -108,18 +107,6 @@ export default {
           console.log(data.Location);
         }
       );
-      //   let data = new FormData();
-      //   data.append("file", e.target.files[0]);
-      //   this.axios({
-      //     url: "https://cdn-ms.juejin.im/v1/upload?bucket=gold-user-assets",
-      //     method:'POST',
-      //     headers: {
-      //       "Content-Type": "multipart/form-data"
-      //     },
-      //     data: data
-      //   }).then(res=>{
-      //       console.log(res);
-      //   })
     }
   }
 };

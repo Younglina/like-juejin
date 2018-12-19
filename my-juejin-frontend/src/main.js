@@ -6,6 +6,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import VueCookie from 'vue-cookies'
 import axios from 'axios'
 import VCharts from 'v-charts'
+import store from './store'
 // axios.defaults.baseURL = 'https://timeline-merger-ms.juejin.im/v1/'
 Vue.prototype.axios = axios
 
@@ -16,5 +17,6 @@ Vue.use(VCharts)
 
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount('#app')

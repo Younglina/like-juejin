@@ -3394,3 +3394,20 @@
 2018-12-18 22:46:15,914 INFO 1222 [egg-watcher:application] watcher start success
 2018-12-18 22:46:15,918 INFO 1222 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 18 2018 22:46:15 GMT+0800 (CST)
 2018-12-18 22:46:15,927 INFO 1222 [egg:core] dump config after ready, 7ms
+2018-12-19 10:50:06,468 INFO 2847 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-19 10:50:06,513 INFO 2847 [egg-schedule]: register schedule /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-19 10:50:06,513 INFO 2847 [egg-schedule]: register schedule /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-19 10:50:06,514 INFO 2847 [egg-multipart] stream mode enable
+2018-12-19 10:50:06,514 INFO 2847 [egg-mysql] connecting root@127.0.0.1:3306/my-local
+2018-12-19 10:50:06,844 INFO 2847 [egg-static] starting static serve /public/ -> /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app/public
+2018-12-19 10:50:06,848 INFO 2847 [egg-security] use methodnoallow middleware
+2018-12-19 10:50:06,850 INFO 2847 [egg-security] use noopen middleware
+2018-12-19 10:50:06,852 INFO 2847 [egg-security] use nosniff middleware
+2018-12-19 10:50:06,854 INFO 2847 [egg-security] use xssProtection middleware
+2018-12-19 10:50:06,856 INFO 2847 [egg-security] use xframe middleware
+2018-12-19 10:50:06,858 INFO 2847 [egg-security] use dta middleware
+2018-12-19 10:50:06,858 INFO 2847 [egg-security] compose 6 middlewares into one security middleware
+2018-12-19 10:50:06,879 INFO 2847 [egg:core] dump config after load, 12ms
+2018-12-19 10:50:06,900 INFO 2847 [egg-watcher:application] watcher start success
+2018-12-19 10:50:06,902 INFO 2847 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 19 2018 10:50:06 GMT+0800 (CST)
+2018-12-19 10:50:06,913 INFO 2847 [egg:core] dump config after ready, 9ms

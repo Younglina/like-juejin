@@ -40,6 +40,12 @@ class JueJinController extends Controller{
         const result = await this.ctx.service.juejin.getJuejin(ctx.query)
         ctx.body = {result: result}
     }
+
+    async getJuejinCategory(){
+        const ctx = this.ctx
+        const result = await this.ctx.service.juejin.getJuejinCategory()
+        ctx.body = {result: result}
+    }
 }
 
 module.exports = JueJinController

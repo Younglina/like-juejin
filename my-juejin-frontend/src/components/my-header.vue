@@ -26,6 +26,12 @@
           <img class="nav-actor" alt="头像" @click="toSetting">
         </li>
       </ul>
+      <ul class="cate-list">
+        <li v-for="item in cateList" :key="item.id" @click="changeCate">
+          <span  :data-cate="item.tagId" :class="{'cate-active':activeCate==item.tagId}" 
+          >{{item.name}}</span>
+        </li>
+      </ul>
     </nav>
   </header>
 </template>
@@ -41,10 +47,21 @@ export default {
         { name: "小册", value: "books" },
         { name: "开源库", value: "repos" },
         { name: "活动", value: "events" }
-      ]
+      ],
+      cateList:[],
+      activeCate:'',
     };
   },
+  mounted(){
+      this.axios.get('/local/category').then(res=>{
+        this.cateList = res.data.result.list
+      })
+  },
   methods:{
+    changeCate(e){
+      console.log(e.target.dataset.cate);
+      this.$store.commit('SET_CATE',e.target.dataset.cate)
+    },
     toSetting(){
       this.$router.push('/user/setting')
     }
@@ -55,19 +72,38 @@ export default {
 header {
   padding: 10px 0;
   position: sticky;
-  height: 40px;
+  height: 80px;
   z-index: 100;
   background-color: white;
   nav {
     max-width: 960px;
     margin: 0 auto;
   }
+  .cate-list{
+    font-size: 14px;
+    padding: 1rem 0;
+    justify-content: flex-start;
+    .cate-active{
+      color: #007fff;
+    }
+    li{
+      margin-right: 2rem;
+      a{
+        color: darkgray;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+          color: #007fff;
+        }
+      }
+    }
+  }
   ul {
     justify-content: space-between;
     align-items: center;
+    color: gray;
+    font-size: 18px;
     li {
-      color: gray;
-      font-size: 18px;
       &:hover {
         color: #007fff;
       }

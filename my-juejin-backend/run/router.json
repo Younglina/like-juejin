@@ -45,6 +45,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/category",
+    "regexp": "/^\\/category(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/get-user",
     "regexp": "/^\\/get-user(?:\\/(?=$))?$/",
     "stack": [

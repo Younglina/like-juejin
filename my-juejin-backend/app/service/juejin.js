@@ -47,5 +47,20 @@ class JueJinService extends Service {
        
         return result 
     }
+
+    async getJuejinCategory(){
+        let result = {}
+        console.log('-----------startGetJuejinCategory----------');
+        try{
+        result['list']= await this.app.mysql.select('juejin_categories')
+        }catch(err){
+            console.log(err);
+            result['errorMsg'] = err
+        }finally{
+            console.log('-----------endGetJuejinCategory----------');
+        }
+       
+        return result 
+    }
 }
 module.exports = JueJinService

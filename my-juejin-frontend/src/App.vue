@@ -23,6 +23,8 @@ export default {
     };
   },
   components: { MyHeader },
+  methods:{
+  },
   async mounted() {
     try {
       const [

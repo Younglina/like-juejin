@@ -73,7 +73,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -85,14 +85,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/lucas/Documents/MyProject/my-egg/logs/my-egg/egg-schedule.log"
+        "file": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg/egg-schedule.log"
       }
     },
     "multipart": {
@@ -129,14 +129,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/lucas/Documents/MyProject/my-egg/app/public",
+      "dir": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/lucas/Documents/MyProject/my-egg/app/view",
+      "root": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -186,9 +186,9 @@
         "egg-mysql": "^3.0.0"
       }
     },
-    "baseDir": "/Users/lucas/Documents/MyProject/my-egg",
+    "baseDir": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend",
     "HOME": "/Users/lucas",
-    "rundir": "/Users/lucas/Documents/MyProject/my-egg/run",
+    "rundir": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -218,7 +218,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/lucas/Documents/MyProject/my-egg/logs/my-egg",
+      "dir": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -293,8 +293,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-session",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -306,8 +306,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-security",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-security",
       "version": "2.4.1"
     },
     "jsonp": {
@@ -319,8 +319,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-jsonp",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -332,8 +332,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-onerror",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -343,8 +343,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-i18n",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -354,8 +354,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-watcher",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -365,8 +365,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-schedule",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-schedule",
       "version": "3.5.0"
     },
     "multipart": {
@@ -378,8 +378,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-multipart",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-multipart",
       "version": "2.3.0"
     },
     "development": {
@@ -393,8 +393,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-development",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-development",
       "version": "2.4.1"
     },
     "logrotator": {
@@ -406,8 +406,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-logrotator",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator",
       "version": "3.0.5"
     },
     "static": {
@@ -417,8 +417,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-static",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -428,8 +428,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-view",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-view",
       "version": "2.1.0"
     },
     "cors": {
@@ -439,8 +439,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-cors",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-cors",
       "version": "2.1.2"
     },
     "mysql": {
@@ -450,8 +450,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lucas/Documents/MyProject/my-egg/config/plugin.js",
-      "path": "/Users/lucas/Documents/MyProject/my-egg/node_modules/egg-mysql",
+      "from": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/plugin.js",
+      "path": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-mysql",
       "version": "3.0.0"
     }
   }

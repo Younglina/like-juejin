@@ -3,9 +3,11 @@ module.exports = app =>{
     router.get('/',controller.user.getUser);
     router.get('/fetchJuejin',controller.juejin.fetchJuejin);
     router.get('/getJuejin',controller.juejin.getJuejin);
+    router.get('/category',controller.juejin.getJuejinCategory);
 
     router.get('/get-user',controller.user.getUser);
     router.post('/add-user',controller.user.addUser);
     router.post('/set-user',controller.user.setUser);
+    
     
 }
