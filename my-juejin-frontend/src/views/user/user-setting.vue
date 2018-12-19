@@ -51,14 +51,12 @@ export default {
         introduce: "个人描述",
         page: "个人主页"
       },
-      avator:
-        "izaya-1256042946.cos.ap-chengdu.myqcloud.com/565b8f7a18c8de9a.jpg"
     };
   },
   mounted() {
     this.myCos = new COS({
-      SecretId: "AKIDe6KK9ktWcU8bpOurSpysWvJRLzQOnZXH",
-      SecretKey: "fBUYR5TijV2JOHvKabaLq79vSlq57uYx"
+      SecretId: "",
+      SecretKey: ""
     });
     this.getUser();
   },

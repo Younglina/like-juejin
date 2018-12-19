@@ -23,7 +23,7 @@
           <i class="iconfont icon-pinglun"></i>
         </li>
         <li>
-          <img class="nav-actor" alt="头像" @click="toSetting">
+          <img src="../assets/header.jpg" class="nav-actor" alt="头像" @click="toSetting">
         </li>
       </ul>
       <ul class="cate-list">
@@ -59,7 +59,7 @@ export default {
   },
   methods:{
     changeCate(e){
-      console.log(e.target.dataset.cate);
+      this.activeCate=e.target.dataset.cate
       this.$store.commit('SET_CATE',e.target.dataset.cate)
     },
     toSetting(){
@@ -78,6 +78,11 @@ header {
   nav {
     max-width: 960px;
     margin: 0 auto;
+  }
+  .nav-actor{
+        width: 50px;
+    height: 50px;
+    border-radius: 50%;
   }
   .cate-list{
     font-size: 14px;
