@@ -3411,3 +3411,38 @@
 2018-12-19 10:50:06,900 INFO 2847 [egg-watcher:application] watcher start success
 2018-12-19 10:50:06,902 INFO 2847 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 19 2018 10:50:06 GMT+0800 (CST)
 2018-12-19 10:50:06,913 INFO 2847 [egg:core] dump config after ready, 9ms
+2018-12-19 13:02:19,677 WARN 2847 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-12-19 13:39:21,471 INFO 5230 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-19 13:39:21,527 INFO 5230 [egg-schedule]: register schedule /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-19 13:39:21,527 INFO 5230 [egg-schedule]: register schedule /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-19 13:39:21,529 INFO 5230 [egg-multipart] stream mode enable
+2018-12-19 13:39:21,530 INFO 5230 [egg-mysql] connecting root@127.0.0.1:3306/my-local
+2018-12-19 13:39:21,909 INFO 5230 [egg-static] starting static serve /public/ -> /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app/public
+2018-12-19 13:39:21,916 INFO 5230 [egg-security] use methodnoallow middleware
+2018-12-19 13:39:21,917 INFO 5230 [egg-security] use noopen middleware
+2018-12-19 13:39:21,919 INFO 5230 [egg-security] use nosniff middleware
+2018-12-19 13:39:21,921 INFO 5230 [egg-security] use xssProtection middleware
+2018-12-19 13:39:21,923 INFO 5230 [egg-security] use xframe middleware
+2018-12-19 13:39:21,925 INFO 5230 [egg-security] use dta middleware
+2018-12-19 13:39:21,925 INFO 5230 [egg-security] compose 6 middlewares into one security middleware
+2018-12-19 13:39:21,968 INFO 5230 [egg:core] dump config after load, 15ms
+2018-12-19 13:39:22,022 INFO 5230 [egg-watcher:application] watcher start success
+2018-12-19 13:39:22,025 INFO 5230 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 19 2018 13:39:22 GMT+0800 (CST)
+2018-12-19 13:39:22,037 INFO 5230 [egg:core] dump config after ready, 9ms
+2018-12-19 14:21:35,997 INFO 5472 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-19 14:21:36,069 INFO 5472 [egg-schedule]: register schedule /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-19 14:21:36,069 INFO 5472 [egg-schedule]: register schedule /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-19 14:21:36,069 INFO 5472 [egg-multipart] stream mode enable
+2018-12-19 14:21:36,070 INFO 5472 [egg-mysql] connecting root@127.0.0.1:3306/my-local
+2018-12-19 14:21:36,456 INFO 5472 [egg-static] starting static serve /public/ -> /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app/public
+2018-12-19 14:21:36,463 INFO 5472 [egg-security] use methodnoallow middleware
+2018-12-19 14:21:36,465 INFO 5472 [egg-security] use noopen middleware
+2018-12-19 14:21:36,467 INFO 5472 [egg-security] use nosniff middleware
+2018-12-19 14:21:36,469 INFO 5472 [egg-security] use xssProtection middleware
+2018-12-19 14:21:36,471 INFO 5472 [egg-security] use xframe middleware
+2018-12-19 14:21:36,473 INFO 5472 [egg-security] use dta middleware
+2018-12-19 14:21:36,473 INFO 5472 [egg-security] compose 6 middlewares into one security middleware
+2018-12-19 14:21:36,496 INFO 5472 [egg:core] dump config after load, 12ms
+2018-12-19 14:21:36,528 INFO 5472 [egg-watcher:application] watcher start success
+2018-12-19 14:21:36,530 INFO 5472 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 19 2018 14:21:36 GMT+0800 (CST)
+2018-12-19 14:21:36,543 INFO 5472 [egg:core] dump config after ready, 10ms

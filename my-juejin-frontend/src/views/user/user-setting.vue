@@ -55,8 +55,8 @@ export default {
   },
   mounted() {
     this.myCos = new COS({
-      SecretId: "",
-      SecretKey: ""
+      SecretId: "AKIDe6KK9ktWcU8bpOurSpysWvJRLzQOnZXH",
+      SecretKey: "fBUYR5TijV2JOHvKabaLq79vSlq57uYx"
     });
     this.getUser();
   },

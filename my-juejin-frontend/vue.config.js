@@ -12,6 +12,13 @@ module.exports = {
                     '^/juejin': ''
                 }
             },
+            '/detail':{
+                target: 'https://post-storage-api-ms.juejin.im/v1',
+                changeOrigin: true,
+                pathRewrite: {
+                    '^/detail': ''
+                }
+            },
             '/local': {
                 target: 'http://0.0.0.0:7002',
                 changeOrigin: true,

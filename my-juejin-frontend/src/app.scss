@@ -9,9 +9,13 @@ html,body,#app,#home,.content-main{
     margin: 0;
     padding: 0;
 }
-
+.content-main{
+  margin-top: 2rem;
+}
 #app {
   background-color: #f4f5f5;
+  display: flex;
+  flex-direction: column;
     header,
     .top-nav,
     .top-nav nav {

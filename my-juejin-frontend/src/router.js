@@ -23,6 +23,12 @@ export default new Router({
       path: '/user/setting',
       name: 'setting',
       component: () => import(/* webpackChunkName: "about" */ './views/user/user-setting.vue')
+    },
+    {
+      path: '/detail/:id',
+      name: 'detail',
+      component: () => import(/* webpackChunkName: "about" */ './views/detail.vue')
     }
+    
   ]
 })

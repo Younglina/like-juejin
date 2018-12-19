@@ -1,7 +1,7 @@
 <template>
   <header class="top-nav">
     <nav>
-      <ul v-show="toggleShow">
+      <ul class="tag-list" v-show="toggleShow">
         <li>
           <a href="/">
           <img
@@ -26,6 +26,7 @@
           <img src="../assets/header.jpg" class="nav-actor" alt="头像" @click="toSetting">
         </li>
       </ul>
+      <hr class="nav-hr"/>
       <ul class="cate-list">
         <li v-for="item in cateList" :key="item.id" @click="changeCate">
           <span  :data-cate="item.tagId" :class="{'cate-active':activeCate==item.tagId}" 
@@ -72,15 +73,14 @@ export default {
 header {
   padding: 10px 0;
   position: sticky;
-  height: 80px;
   z-index: 100;
   background-color: white;
-  nav {
+  .cate-list,.tag-list {
     max-width: 960px;
     margin: 0 auto;
   }
   .nav-actor{
-        width: 50px;
+    width: 50px;
     height: 50px;
     border-radius: 50%;
   }

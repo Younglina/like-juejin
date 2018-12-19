@@ -670,3 +670,15 @@
 2018-12-19 10:50:05,543 INFO 2846 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
 2018-12-19 10:50:05,543 INFO 2846 [egg-watcher:agent] watcher start success
 2018-12-19 10:50:05,578 INFO 2846 [egg:core] dump config after ready, 12ms
+2018-12-19 13:39:19,031 INFO 2846 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":7073717,"size":126,"blocks":8,"atimeMs":1545197958960.0066,"mtimeMs":1545197958962.4446,"ctimeMs":1545197958962.4446,"birthtimeMs":1544495608484.6338,"atime":"2018-12-19T05:39:18.960Z","mtime":"2018-12-19T05:39:18.962Z","ctime":"2018-12-19T05:39:18.962Z","birthtime":"2018-12-11T02:33:28.485Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-12-19 13:39:19,244 WARN 2846 [agent:development] reload worker because /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/plugin.js change
+2018-12-19 14:21:34,485 INFO 5471 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-19 14:21:34,745 INFO 5471 [egg:core] dump config after load, 12ms
+2018-12-19 14:21:34,846 INFO 5471 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-19 14:21:34,847 INFO 5471 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-19 14:21:34,847 INFO 5471 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-19 14:21:34,848 INFO 5471 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-19 14:21:34,855 INFO 5471 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-19 14:21:34,855 INFO 5471 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-19 14:21:34,856 INFO 5471 [egg-watcher:agent] watcher start success
+2018-12-19 14:21:34,886 INFO 5471 [egg:core] dump config after ready, 7ms
