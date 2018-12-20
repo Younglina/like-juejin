@@ -951,3 +951,29 @@ name: "ClusterClientNoResponseError"
 pid: 2846
 hostname: wangzhiqiangdeMacBook-Air.local
 
+2018-12-20 09:13:41,130 ERROR 1586 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+    --------------------
+    at Protocol._enqueue (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ECONNREFUSED"
+errno: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 1586
+hostname: wangzhiqiangdeMacBook-Air.local
+

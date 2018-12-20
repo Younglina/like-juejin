@@ -51,10 +51,10 @@ export default {
       };
       this._scrollbar = Scrollbar;
       Scrollbar.use(OverscrollPlugin);
-      this._scroll = Scrollbar.init(
-        document.querySelector(".content-main"),
-        options
-      );
+      // this._scroll = Scrollbar.init(
+      //   document.querySelector("#app"),
+      //   options
+      // );
       // this._scroll.addListener(status => {
       //   this.offsetProgress = (status.offset.y * 100) / status.limit.y < 20;
       // });

@@ -20,7 +20,7 @@
           <button class="nav-write">写文章</button>
         </li>
         <li>
-          <i class="iconfont icon-pinglun"></i>
+          <i class="iconfont icon-lingdang"></i>
         </li>
         <li>
           <img src="../assets/header.jpg" class="nav-actor" alt="头像" @click="toSetting">
@@ -72,7 +72,7 @@ export default {
 <style lang='scss' scoped>
 header {
   padding: 10px 0;
-  position: sticky;
+  position: fixed;
   z-index: 100;
   background-color: white;
   .cate-list,.tag-list {
