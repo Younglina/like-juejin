@@ -54,7 +54,8 @@ export default {
     };
   },
   mounted(){
-      this.axios.get('/local/category').then(res=>{
+      this.axios.get('/local/category',{
+      }).then(res=>{
         this.cateList = res.data.result.list
       })
   },

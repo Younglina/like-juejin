@@ -62,9 +62,7 @@ export default {
   },
   methods: {
     getUser() {
-      this.axios({
-        url: "/local/get-user",
-        method: "get",
+      this.axios.get("/local/get-user",{
         params: {
           id: 2
         }
@@ -75,9 +73,7 @@ export default {
     },
     handelSave(key) {
       if(this.old_user[key]==this.user[key]){this.shwoKey=''; return;}
-      this.axios({
-        url: "/local/set-user",
-        method: "post",
+      this.axios.get("/local/set-user",{
         data: {
           id: 2,
           [key]:this.user[key]

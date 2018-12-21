@@ -1,7 +1,7 @@
 <template>
   <div class="post-main">
     <ul class="post-list">
-      <li class="post-li">
+      <li class="post-li-title">
         <ul class="sort-left">
           <li>热门</li>
           <li>最新</li>
@@ -14,7 +14,7 @@
         </ul>
       </li>
       <li v-for="item in dataList" :key="item.objectId" class="post-li">
-        <router-link  target="_blank" class="post-a" :to="{path:'/detail/'+item.objectId}">
+        <router-link target="_blank" class="post-a" :to="{path:'/detail/'+item.objectId}">
           <div class="post-div">
             <ul class="post-info">
               <li v-if="item.hot" class="is-hot">热</li>
@@ -57,42 +57,40 @@
 </template>
 
 <script>
-  import {
-    mapGetters
-  } from 'vuex'
-  export default {
-    name: "post-list",
-    props: {
-      msg: String
-    },
-    computed: {
-      ...mapGetters([
-        'currentCate'
-      ])
-    },
-    data() {
-      return {
-        dataList: []
-      };
-    },
-    watch: {
-      currentCate(data) {
-        this.fetchData(data)
-      }
-    },
-    methods: {
-      fetchData(cate) {
-        cate = cate || '5562b415e4b00c57d9b94ac8'
-        this.axios({
-          url: "/juejin/get_entry_by_timeline",
+import { mapGetters } from "vuex";
+export default {
+  name: "post-list",
+  props: {
+    msg: String
+  },
+  computed: {
+    ...mapGetters(["currentCate"])
+  },
+  data() {
+    return {
+      dataList: []
+    };
+  },
+  watch: {
+    currentCate(data) {
+      this.fetchData(data);
+    }
+  },
+  methods: {
+    fetchData(cate) {
+      cate = cate || "5562b415e4b00c57d9b94ac8";
+      this.axios
+        .get("/juejin/get_entry_by_timeline",{
           params: {
-            src: 'web',
+            src: "web",
             category: cate,
             limit: 20
           },
           method: "get"
-        }).then(res => {
-          let tempTags, nowDate = new Date();
+        })
+        .then(res => {
+          let tempTags,
+            nowDate = new Date();
           let list = res.data.d.entrylist.map(item => {
             tempTags =
               (item.tags[0] && item.tags[0].title) +
@@ -105,7 +103,7 @@
               summaryInfo: item.summaryInfo,
               originalUrl: item.originalUrl,
               original: item.original,
-              objectId:item.originalUrl.slice(23),
+              objectId: item.originalUrl.slice(23),
               createdAt: item.createdAt.slice(0, 10),
               diffTime: this.pushTime(nowDate, item.createdAt),
               username: item.user.username,
@@ -115,113 +113,112 @@
             };
           });
           this.dataList = list;
-        })
-      },
-      pushTime(nowDate, createTime) {
-        let diffTime = (nowDate - new Date(createTime).getTime()) / 86400000;
-        return Math.floor(diffTime) != 0 ?
-          Math.floor(diffTime) + "天前" :
-          Math.floor(diffTime * 24) != 0 ?
-          Math.floor(diffTime * 24) + "小时前" :
-          Math.floor(diffTime * 24 * 60) + "分钟前";
-      }
+        });
     },
-    mounted() {
-      this.fetchData(this.currentCate);
+    pushTime(nowDate, createTime) {
+      let diffTime = (nowDate - new Date(createTime).getTime()) / 86400000;
+      return Math.floor(diffTime) != 0
+        ? Math.floor(diffTime) + "天前"
+        : Math.floor(diffTime * 24) != 0
+        ? Math.floor(diffTime * 24) + "小时前"
+        : Math.floor(diffTime * 24 * 60) + "分钟前";
+    }
   },
-  };
+  mounted() {
+    this.fetchData(this.currentCate);
+  }
+};
 </script>
 
 <style scoped lang="scss">
-  .post-main {
+.post-main {
+  display: flex;
+  max-width: 960px;
+  margin: auto;
+}
+
+.post-right {
+  width: 100%;
+}
+
+.post-list {
+  flex-direction: column;
+  width: 100%;
+  max-width: 58rem;
+  margin: 0 auto;
+  background-color: white;
+  .post-a,
+  .post-li-title {
+    text-decoration: none;
+    padding: 20px 20px;
+    border-bottom: 1px solid gainsboro;
     display: flex;
-    max-width: 960px;
-    margin: auto;
+    align-items: center;
+    justify-content: space-between;
   }
-  
-  .post-right {
-    width: 100%;
-  }
-  
-  .post-list {
-    flex-direction: column;
-    width: 100%;
-    max-width: 58rem;
-    margin: 0 auto;
-    background-color: white;
-    .post-li {
-      padding: 20px 20px;
-      border-bottom: 1px solid gainsboro;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      .post-a{
-        text-decoration: none;
-      }
-      .sort-left {
-        li {
-          font-size: 14px;
-          color: darkgray;
-          padding: 0 1rem;
-          border-right: 1px solid darkgray;
-        }
-      }
-      .sort-right {
-        li {
-          font-size: 14px;
-          color: darkgray;
-        }
-        .center-li {
-          &::after,
-          &::before {
-            content: "·";
-            padding: 0 0.3rem;
-          }
-        }
-      }
-    }
-    .post-info {
+  .sort-left {
+    li {
       font-size: 14px;
       color: darkgray;
-      .is-hot {
-        color: red;
-      }
-      .is-zl {
-        color: violet;
-      }
-      li:after {
-        content: "·";
-        padding: 0 3px;
-      }
-       :last-child:after {
-        content: "";
-      }
-    }
-    .post-title {
-      h3 {
-        margin: 10px 0;
-        white-space: nowrap;
-        color: black;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-    }
-    .post-action {
-      color: gray;
-      li {
-        border: 1px solid gainsboro;
-        padding: 5px 10px;
-        &:last-child {
-          margin-left: 10px;
-        }
-      }
-    }
-    .post-div {
-      width: 580px;
-    }
-    .post-img {
-      width: 100px;
-      height: 60px;
+      padding: 0 1rem;
+      border-right: 1px solid darkgray;
     }
   }
+  .sort-right {
+    li {
+      font-size: 14px;
+      color: darkgray;
+    }
+    .center-li {
+      &::after,
+      &::before {
+        content: "·";
+        padding: 0 0.3rem;
+      }
+    }
+  }
+  .post-info {
+    font-size: 14px;
+    color: darkgray;
+    .is-hot {
+      color: red;
+    }
+    .is-zl {
+      color: violet;
+    }
+    li:after {
+      content: "·";
+      padding: 0 3px;
+    }
+    :last-child:after {
+      content: "";
+    }
+  }
+  .post-title {
+    h3 {
+      margin: 10px 0;
+      white-space: nowrap;
+      color: black;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .post-action {
+    color: gray;
+    li {
+      border: 1px solid gainsboro;
+      padding: 5px 10px;
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+  .post-div {
+    width: 580px;
+  }
+  .post-img {
+    width: 100px;
+    height: 60px;
+  }
+}
 </style>

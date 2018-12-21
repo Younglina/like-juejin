@@ -120,17 +120,11 @@ export default {
   },
   mounted() {
     let id = this.$router.currentRoute.params.id;
-    this.axios({
-      url: "/detail/getDetailData?src=web&type=entry&postId=" + id,
-      method: "get"
-    }).then(res => {
+    this.axios.get("/detail/getDetailData?src=web&type=entry&postId=" + id).then(res => {
       this.postInfo = res.data.d;
     });
 
-    this.axios({
-      url: "/detail/getDetailData?src=web&type=entryView&postId=" + id,
-      method: "get"
-    }).then(res => {
+    this.axios.get("/detail/getDetailData?src=web&type=entryView&postId=" + id,).then(res => {
       this.content = res.data.d.transcodeContent.replace("↵", "");
     });
 

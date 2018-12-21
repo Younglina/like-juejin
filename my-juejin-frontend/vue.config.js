@@ -1,4 +1,5 @@
 module.exports = {
+    baseUrl: './',
     devServer: {
         host: '127.0.0.1',
         port: 8080,
@@ -20,7 +21,7 @@ module.exports = {
                 }
             },
             '/local': {
-                target: 'http://0.0.0.0:7002',
+                target: 'http://134.175.224.127:7002',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/local': ''
