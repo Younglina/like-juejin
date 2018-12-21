@@ -28,6 +28,11 @@ export default new Router({
       path: '/detail/:id',
       name: 'detail',
       component: () => import(/* webpackChunkName: "about" */ './views/detail.vue')
+    },
+    {
+      path: '/active',
+      name: 'active',
+      component: () => import(/* webpackChunkName: "about" */ './views/active/active.vue')
     }
     
   ]

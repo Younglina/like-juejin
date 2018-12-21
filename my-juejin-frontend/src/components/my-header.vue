@@ -4,14 +4,16 @@
       <ul class="tag-list" v-show="toggleShow">
         <li>
           <a href="/">
-          <img
-            src="https://b-gold-cdn.xitu.io/v3/static/img/logo.a7995ad.svg"
-            alt="掘金"
-            class="nav-logo"
-          >
+            <img
+              src="https://b-gold-cdn.xitu.io/v3/static/img/logo.a7995ad.svg"
+              alt="掘金"
+              class="nav-logo"
+            >
           </a>
         </li>
-        <li v-for="item in topNav" :key="item.value">{{item.name}}</li>
+        <li v-for="item in topNav" :key="item.value" class="nav-list">
+          <router-link :to="item.link">{{item.name}}</router-link>
+        </li>
         <li class="nav-query">
           <input type="text" placeholder="搜索掘金">
           <i class="iconfont icon-sousuo_o"></i>
@@ -26,10 +28,12 @@
           <img src="../assets/header.jpg" class="nav-actor" alt="头像" @click="toSetting">
         </li>
       </ul>
-      <hr class="nav-hr"/>
+      <hr class="nav-hr">
       <ul class="cate-list">
         <li v-for="item in cateList" :key="item.id" @click="changeCate">
-          <span  :data-cate="item.tagId" :class="{'cate-active':activeCate==item.tagId}" 
+          <span
+            :data-cate="item.tagId"
+            :class="{'cate-active':activeCate==item.tagId}"
           >{{item.name}}</span>
         </li>
       </ul>
@@ -39,33 +43,32 @@
 <script>
 export default {
   name: "my-header",
-  props:['toggleShow'],
+  props: ["toggleShow"],
   data() {
     return {
       topNav: [
-        { name: "首页", value: "timeline" },
-        { name: "动态", value: "activities" },
-        { name: "小册", value: "books" },
-        { name: "开源库", value: "repos" },
-        { name: "活动", value: "events" }
+        { name: "首页", value: "timeline", link: "/" },
+        { name: "动态", value: "activities", link: "/active" },
+        { name: "小册", value: "books", link: "/" },
+        { name: "开源库", value: "repos", link: "/" },
+        { name: "活动", value: "events", link: "/" }
       ],
-      cateList:[],
-      activeCate:'',
+      cateList: [],
+      activeCate: ""
     };
   },
-  mounted(){
-      this.axios.get('/local/category',{
-      }).then(res=>{
-        this.cateList = res.data.result.list
-      })
+  mounted() {
+    this.axios.get("/local/category", {}).then(res => {
+      this.cateList = res.data.result.list;
+    });
   },
-  methods:{
-    changeCate(e){
-      this.activeCate=e.target.dataset.cate
-      this.$store.commit('SET_CATE',e.target.dataset.cate)
+  methods: {
+    changeCate(e) {
+      this.activeCate = e.target.dataset.cate;
+      this.$store.commit("SET_CATE", e.target.dataset.cate);
     },
-    toSetting(){
-      this.$router.push('/user/setting')
+    toSetting() {
+      this.$router.push("/user/setting");
     }
   }
 };
@@ -76,31 +79,42 @@ header {
   position: fixed;
   z-index: 100;
   background-color: white;
-  .cate-list,.tag-list {
+  .cate-list,
+  .tag-list {
     max-width: 960px;
     margin: 0 auto;
   }
-  .nav-actor{
+  .nav-actor {
     width: 50px;
     height: 50px;
     border-radius: 50%;
   }
-  .cate-list{
+  .cate-list {
     font-size: 14px;
     padding: 1rem 0;
     justify-content: flex-start;
-    .cate-active{
+    .cate-active {
       color: #007fff;
     }
-    li{
+    li {
       margin-right: 2rem;
-      a{
+      a {
         color: darkgray;
         text-decoration: none;
         cursor: pointer;
         &:hover {
           color: #007fff;
         }
+      }
+    }
+  }
+  .nav-list {
+    a {
+      color: gray;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+        color: #007fff;
       }
     }
   }
@@ -126,11 +140,11 @@ header {
     .nav-write {
       border: none;
       outline: none;
+      padding: 8px 10px;
+      border-radius: 5px;
       background-color: #007fff;
       color: white;
       cursor: pointer;
-      padding: 8px 10px;
-      border-radius: 5px;
     }
   }
 }
