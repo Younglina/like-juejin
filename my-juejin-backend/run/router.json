@@ -70,6 +70,31 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/set-user",
+    "regexp": "/^\\/set-user(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/get-user-pins",
+    "regexp": "/^\\/get-user-pins(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/add-user",
     "regexp": "/^\\/add-user(?:\\/(?=$))?$/",
     "stack": [
@@ -84,18 +109,6 @@
     "paramNames": [],
     "path": "/add-active",
     "regexp": "/^\\/add-active(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/set-user",
-    "regexp": "/^\\/set-user(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

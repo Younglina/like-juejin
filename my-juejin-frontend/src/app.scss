@@ -46,3 +46,12 @@ html,body,#app,#home,.content-main{
   .scrollbar-track-y{
     z-index: 200 !important;
   }
+
+  .w-button {
+    outline: none;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #007fff;
+    color: #007fff;
+    cursor: pointer;
+  }

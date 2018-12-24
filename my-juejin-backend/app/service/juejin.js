@@ -31,13 +31,13 @@ class JueJinService extends Service {
         let result = {}
         console.log('-----------startJueJinRank----------');
         try{
-        result['list']= await this.app.mysql.select('juejin_hot',{
+        result['list']= await this.app.database.select('juejin_hot',{
             limit: 10,
             offset: query.offset*10,
             where: {category:query.category}
         })
         if(query.first=== 'first'){
-            result['rank'] =await this.app.mysql.select('juejin_frontend_tags')
+            result['rank'] =await this.app.database.select('juejin_frontend_tags')
         }}catch(err){
             console.log(err);
             result['err'] = err
@@ -52,7 +52,7 @@ class JueJinService extends Service {
         let result = {}
         console.log('-----------startGetJuejinCategory----------');
         try{
-        result['list']= await this.app.mysql.select('juejin_categories')
+        result['list']= await this.app.database.select('juejin_categories')
         }catch(err){
             console.log(err);
             result['errorMsg'] = err

@@ -50,3 +50,5 @@
 2018-12-22 17:31:34,943 INFO 4468 [Timer] /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-12-23 00:00:01.000
 2018-12-24 09:16:13,345 INFO 982 [Timer] /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-12-25 00:00:00.000
 2018-12-24 09:16:13,346 INFO 982 [Timer] /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-12-25 00:00:01.000
+2018-12-24 13:39:21,107 INFO 2617 [Timer] /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-12-25 00:00:00.000
+2018-12-24 13:39:21,107 INFO 2617 [Timer] /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-12-25 00:00:01.000

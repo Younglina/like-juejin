@@ -28,15 +28,19 @@
           <img :src='user.avator' class="nav-actor" alt="头像" @click="toSetting">
         </li>
       </ul>
-      <hr class="nav-hr">
-      <ul class="cate-list">
-        <li v-for="item in cateList" :key="item.id" @click="changeCate">
-          <span
-            :data-cate="item.tagId"
-            :class="{'cate-active':activeCate==item.tagId}"
-          >{{item.name}}</span>
-        </li>
-      </ul>
+
+      <div  v-show="!isShowCate">
+        <hr class="nav-hr">
+        <ul class="cate-list">
+          <li v-for="item in cateList" :key="item.id" @click="changeCate">
+            <span
+              :data-cate="item.tagId"
+              :class="{'cate-active':activeCate==item.tagId}"
+            >{{item.name}}</span>
+          </li>
+        </ul>
+      </div>
+
     </nav>
   </header>
 </template>
@@ -55,7 +59,8 @@ export default {
       ],
       cateList: [],
       activeCate: "",
-      user:{}
+      user:{},
+      isShowCate:true,
     };
   },
   mounted() {
@@ -77,7 +82,12 @@ export default {
       this.$store.commit("SET_CATE", e.target.dataset.cate);
     },
     toSetting() {
-      this.$router.push("/user/setting");
+      this.$router.push("/user");
+    }
+  },
+  watch:{
+    $route(a){
+      this.isShowCate = a.path.slice(0,5)=='/user'
     }
   }
 };

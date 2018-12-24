@@ -1280,7 +1280,7 @@
     .post-nav {
       width: 300px;
       font-size: 14px;
-      padding-top: 10px;
+      padding-bottom: 10px;
       .nav-list {
         background-color: white;
         margin-bottom: 10px;

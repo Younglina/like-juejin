@@ -3,16 +3,19 @@ const Service = require('egg').Service;
 class UserService extends Service {
 
     async getUser(uid) {
-        // const user = await this.app.database.select('user_info', {
-        //     where: { id: uid },
-        //     columns: ['avator', 'name', 'introduce', 'post', 'company', 'page','attentions','followers']
-        // });
         const user = await this.app.database.query(`
             select info.*,count(act.user_id) active_nums from user_info info
             left join juejin_active act on act.user_id = info.id
             where info.id = ?`, [uid]
-            )
+        )
         return { user };
+    }
+
+    async getUserPins(uid) {
+        const pins = await this.app.database.select('juejin_active', {
+            where: { user_id: uid }
+        });
+        return { pins };
     }
 
     async addUser(user) {
@@ -21,7 +24,7 @@ class UserService extends Service {
         return { result: { success: updateSuccess, message: result.message } };
     }
 
-    async addActive(active){
+    async addActive(active) {
         active['create_time'] = this.app.database.literals.now
         const result = await this.app.database.insert('juejin_active', active);
         const updateSuccess = result.affectedRows === 1

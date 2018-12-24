@@ -120,13 +120,17 @@ export default {
   },
   mounted() {
     let id = this.$router.currentRoute.params.id;
-    this.axios.get("/detail/getDetailData?src=web&type=entry&postId=" + id).then(res => {
-      this.postInfo = res.data.d;
-    });
+    this.axios
+      .get("/detail/getDetailData?src=web&type=entry&postId=" + id)
+      .then(res => {
+        this.postInfo = res.data.d;
+      });
 
-    this.axios.get("/detail/getDetailData?src=web&type=entryView&postId=" + id,).then(res => {
-      this.content = res.data.d.transcodeContent.replace("↵", "");
-    });
+    this.axios
+      .get("/detail/getDetailData?src=web&type=entryView&postId=" + id)
+      .then(res => {
+        this.content = res.data.d.transcodeContent.replace("↵", "");
+      });
 
     //小册推荐 请求太多了就先用零时数据
     this.recommendBooks = [
@@ -275,9 +279,10 @@ export default {
   display: none;
 }
 
-.content-main{
+.content-main {
   margin-top: 8rem;
 }
+
 #detail {
   display: flex;
   justify-content: space-between;
@@ -292,7 +297,7 @@ export default {
     .post-ul {
       display: flex;
       flex-direction: column;
-      li{
+      li {
         margin-bottom: 2rem;
       }
       i {
@@ -315,15 +320,15 @@ export default {
       background-color: white;
       padding: 1rem;
     }
-    .side-title {
-      border-bottom: 1px solid gainsboro;
-      padding-bottom: 1rem;
-    }
     .about-user {
       display: flex;
       flex-direction: column;
       width: 200px;
       margin-bottom: 2rem;
+      .side-title {
+        border-bottom: 1px solid gainsboro;
+        padding-bottom: 1rem;
+      }
       > span {
         margin-top: 1rem;
         i {
@@ -334,50 +339,50 @@ export default {
           border-radius: 50%;
         }
       }
-    }
-  }
-  .top-user {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin: 1rem 0;
-    .user-avator {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-    }
-    .post-img {
-      width: 60px;
-      height: 80px;
-    }
-    .post-smaple {
-      margin-left: 1rem;
-      > div {
+      .top-user {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        font-size: 12px;
+        font-size: 14px;
+        margin: 1rem 0;
+        .user-avator {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+        .post-img {
+          width: 60px;
+          height: 80px;
+        }
+        .post-smaple {
+          margin-left: 1rem;
+          > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+          }
+          .post-a {
+            color: black;
+            text-decoration: none;
+          }
+          .post-buycount {
+            color: gray;
+          }
+          .nav-write {
+            font-size: 12px;
+            height: 20px;
+            border: none;
+            outline: none;
+            background-color: #007fff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+          }
+        }
+        .post-mylist {
+          margin: 0;
+        }
       }
-      .post-a {
-        color: black;
-        text-decoration: none;
-      }
-      .post-buycount {
-        color: gray;
-      }
-      .nav-write {
-        font-size: 12px;
-        height: 20px;
-        border: none;
-        outline: none;
-        background-color: #007fff;
-        color: white;
-        cursor: pointer;
-        border-radius: 5px;
-      }
-    }
-    .post-mylist {
-      margin: 0;
     }
   }
   img {

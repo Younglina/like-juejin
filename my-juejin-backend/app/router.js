@@ -6,9 +6,12 @@ module.exports = app =>{
     router.get('/category',controller.juejin.getJuejinCategory);
 
     router.get('/get-user',controller.user.getUser);
+    router.post('/set-user',controller.user.setUser);
+    router.get('/get-user-pins',controller.user.getUserPins);
+    
     router.post('/add-user',controller.user.addUser);
     router.post('/add-active',controller.user.addActive);
-    router.post('/set-user',controller.user.setUser);
+    
     
     
 }
