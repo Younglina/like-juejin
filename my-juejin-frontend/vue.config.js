@@ -2,6 +2,7 @@ module.exports = {
     baseUrl: './',
     devServer: {
         host: '127.0.0.1',
+        // host: '0.0.0.0',
         port: 8080,
         https: false,
         hotOnly: false,
@@ -21,7 +22,8 @@ module.exports = {
                 }
             },
             '/local': {
-                target: 'http://134.175.224.127:7002',
+                // target: 'http://134.175.224.127:7002',
+                target: 'http://0.0.0.0:7002',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/local': ''

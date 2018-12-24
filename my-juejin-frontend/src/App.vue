@@ -19,7 +19,7 @@ export default {
   name: "app",
   data() {
     return {
-      offsetProgress: true
+      offsetProgress: true,
     };
   },
   components: { MyHeader },

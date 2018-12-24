@@ -1,35 +1,46 @@
 <template>
   <div id="user-setting" class="content-show">
     <div class="content">
-    <h2>个人资料</h2>
-    <ul>
-      <li>
-        <span class="item-keys">头像</span>
-        <div class="center-div">
-          <img :src='"http://"+user.avator' class="user-avator">
-          <div class="upload-div">
-            <div>支持 jpg、png 格式大小 5M 以内的图片</div>
-            <button type="submit" class="upload-btn" @click="$refs.uploadInput.click()">点击上传</button>
-            <input type="file" class="upload-input" v-show="false" ref="uploadInput" @change="uploadImg">
+      <h2>个人资料</h2>
+      <ul>
+        <li>
+          <span class="item-keys">头像</span>
+          <div class="center-div">
+            <img :src="user.avator" class="user-avator">
+            <div class="upload-div">
+              <div>支持 jpg、png 格式大小 5M 以内的图片</div>
+              <button type="submit" class="upload-btn" @click="$refs.uploadInput.click()">点击上传</button>
+              <input
+                type="file"
+                class="upload-input"
+                v-show="false"
+                ref="uploadInput"
+                @change="uploadImg"
+              >
+            </div>
           </div>
-        </div>
-      </li>
-      <li v-for="(item,key) of user" v-if="key != 'avator' " :key="key">
-        <span class="item-keys">{{keyName[key]}}</span>
-        <div class="center-div">
-          <input type="text" v-model="user[key]" @click="shwoKey=key" :placeholder="'请填写你的'+keyName[key]">
-        </div>
-        <button class="user-edit" v-if="shwoKey!=key" @click="shwoKey=key">
-          <i class="iconfont icon-shezhi_tougao_edit"></i>
-          <span>修改</span>
-        </button>
-        <button class="user-edit" v-if="shwoKey==key">
-          <span @click="handelSave(key)">保存</span>
-          <span @click="shwoKey=''">取消</span>
-        </button>
-      </li>
-    </ul>
-  </div>
+        </li>
+        <li v-for="(item,key) of user" v-if="key != 'avator' " :key="key">
+          <span class="item-keys">{{keyName[key]}}</span>
+          <div class="center-div">
+            <input
+              type="text"
+              v-model="user[key]"
+              @click="shwoKey=key"
+              :placeholder="'请填写你的'+keyName[key]"
+            >
+          </div>
+          <button class="user-edit" v-if="shwoKey!=key" @click="shwoKey=key">
+            <i class="iconfont icon-shezhi_tougao_edit"></i>
+            <span>修改</span>
+          </button>
+          <button class="user-edit" v-if="shwoKey==key">
+            <span @click="handelSave(key)">保存</span>
+            <span @click="shwoKey=''">取消</span>
+          </button>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 <script>
@@ -40,9 +51,9 @@ export default {
     return {
       myCos: {},
       user: {},
-      old_user:{},
-      toggleShow:true,
-      shwoKey:'',
+      old_user: {},
+      toggleShow: true,
+      shwoKey: "",
       keyName: {
         name: "用户名",
         avator: "头像",
@@ -62,26 +73,33 @@ export default {
   },
   methods: {
     getUser() {
-      this.axios.get("/local/get-user",{
-        params: {
-          id: 2
-        }
-      }).then(res => {
-        this.user = res.data.user[0];
-        this.old_user = Object.assign({},this.user)
-      });
+      this.axios
+        .get("/local/get-user", {
+          params: {
+            id: 2
+          }
+        })
+        .then(res => {
+          this.user = res.data.user[0];
+          this.old_user = Object.assign({}, this.user);
+        });
     },
     handelSave(key) {
-      if(this.old_user[key]==this.user[key]){this.shwoKey=''; return;}
-      this.axios.get("/local/set-user",{
-        data: {
-          id: 2,
-          [key]:this.user[key]
-        }
-      }).then(res => {
-        this.old_user[key] = this.user[key];
-        this.shwoKey='';
-      });
+      if (this.old_user[key] == this.user[key]) {
+        this.shwoKey = "";
+        return;
+      }
+      this.axios
+        .post("/local/set-user", {
+          data: {
+            id: 2,
+            [key]: this.user[key]
+          }
+        })
+        .then(res => {
+          this.old_user[key] = this.user[key];
+          this.shwoKey = "";
+        });
     },
     uploadImg(e) {
       let self = this;
@@ -99,6 +117,8 @@ export default {
         function(err, data) {
           console.log(err || data);
           console.log(data.Location);
+          self.user.avator = "http://" + data.Location;
+          self.handelSave("avator");
         }
       );
     }
@@ -110,9 +130,9 @@ export default {
   padding: 30px 0;
   margin: 0 auto;
   width: 58rem;
-  margin-top: 1rem; 
+  margin-top: 1rem;
   font-size: 14px;
-  .content{
+  .content {
     padding: 0 2rem;
   }
 }
@@ -148,7 +168,7 @@ ul {
     .center-div {
       flex-grow: 1;
       display: flex;
-      input{
+      input {
         width: 100%;
         height: 2rem;
       }

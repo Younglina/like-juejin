@@ -25,7 +25,7 @@
           <i class="iconfont icon-lingdang"></i>
         </li>
         <li>
-          <img src="../assets/header.jpg" class="nav-actor" alt="头像" @click="toSetting">
+          <img :src='user.avator' class="nav-actor" alt="头像" @click="toSetting">
         </li>
       </ul>
       <hr class="nav-hr">
@@ -54,12 +54,21 @@ export default {
         { name: "活动", value: "events", link: "/" }
       ],
       cateList: [],
-      activeCate: ""
+      activeCate: "",
+      user:{}
     };
   },
   mounted() {
     this.axios.get("/local/category", {}).then(res => {
       this.cateList = res.data.result.list;
+    });
+    this.axios.get("/local/get-user",{
+      params: {
+        id: 2
+      }
+    }).then(res => {
+      this.$store.commit('SET_USER',res.data.user[0])
+      this.user = Object.assign({},res.data.user[0])
     });
   },
   methods: {

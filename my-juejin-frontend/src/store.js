@@ -5,16 +5,23 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    currentCate:''
+    currentCate:'',
+    userInfo:{}
   },
   mutations: {
     SET_CATE(state, data){
       state.currentCate = data
+    },
+    SET_USER(state, data){
+      state.userInfo = data
     }
   },
   getters: {
     currentCate(state){
       return state.currentCate
+    },
+    userInfo(state){
+      return state.userInfo
     }
   }
 })
