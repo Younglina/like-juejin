@@ -16,7 +16,13 @@ class UserController extends Controller {
 
     async setUser(){
         const ctx = this.ctx
-        const result = await ctx.service.user.setUser(ctx.request.body)
+        const result = await ctx.service.user.setUser(ctx.request.body.data)
+        ctx.body = result
+    }
+
+    async addActive(){
+        const ctx = this.ctx
+        const result = await ctx.service.user.addActive(ctx.request.body.data);
         ctx.body = result
     }
 }

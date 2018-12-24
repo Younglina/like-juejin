@@ -63,13 +63,23 @@
     }
   },
   "mysql": {
-    "client": {
-      "host": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
-      "port": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
-      "user": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
-      "password": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
-      "database": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
-      "charset": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js"
+    "clients": {
+      "prod": {
+        "host": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "port": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "user": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "password": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "database": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "charset": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js"
+      },
+      "dev": {
+        "host": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "port": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "user": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "password": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "database": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js",
+        "charset": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js"
+      }
     },
     "default": {
       "database": "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-mysql/config/config.default.js",

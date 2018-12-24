@@ -977,3 +977,335 @@ name: "ECONNREFUSEDError"
 pid: 1586
 hostname: wangzhiqiangdeMacBook-Air.local
 
+2018-12-22 10:51:21,107 ERROR 1795 [-/127.0.0.1/-/29ms POST /set-user] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:65:19)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as update] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:30:15)
+    at UserService.setUser (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app/service/user.js:22:45)
+    at UserController.setUser (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app/controller/user.js:19:47)
+    at Object.callFn (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/utils/index.js:36:21)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 1795
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 16:01:09,315 ERROR 3642 [-/127.0.0.1/-/185ms POST /add-active] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'my-data.juejin_acitve' doesn't exist
+    at Query.Sequence._packetToError (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:65:19)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:54:5
+    sql: INSERT INTO `juejin_acitve`(`data`, `create_time`) VALUES('[object Object]', now())
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'my-data.juejin_acitve' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `juejin_acitve`(`data`, `create_time`) VALUES('[object Object]', now())"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 3642
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 16:01:46,747 ERROR 3658 [-/127.0.0.1/-/155ms POST /add-active] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'my-data.juejin_active' doesn't exist
+    at Query.Sequence._packetToError (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:65:19)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:54:5
+    sql: INSERT INTO `juejin_active`(`data`, `create_time`) VALUES('[object Object]', now())
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'my-data.juejin_active' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `juejin_active`(`data`, `create_time`) VALUES('[object Object]', now())"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 3658
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 16:02:10,310 ERROR 3658 [-/127.0.0.1/-/114ms POST /add-active] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'my-data.juejin_active' doesn't exist
+    at Query.Sequence._packetToError (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:65:19)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:54:5
+    sql: INSERT INTO `juejin_active`(`data`, `create_time`) VALUES('[object Object]', now())
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'my-data.juejin_active' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `juejin_active`(`data`, `create_time`) VALUES('[object Object]', now())"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 3658
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 16:02:32,036 ERROR 3658 [-/127.0.0.1/-/115ms POST /add-active] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'my-data.juejin_active' doesn't exist
+    at Query.Sequence._packetToError (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:65:19)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:54:5
+    sql: INSERT INTO `juejin_active`(`data`, `create_time`) VALUES('[object Object]', now())
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'my-data.juejin_active' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `juejin_active`(`data`, `create_time`) VALUES('[object Object]', now())"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 3658
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 17:23:07,955 ERROR 4300 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'fetch' of undefined
+    at app.beforeStart (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js:3:50)
+    at Object.callFn (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 4300
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 17:27:14,737 ERROR 4355 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: app.config.fetch is not a function
+    at app.beforeStart (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js:3:44)
+    at Object.callFn (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 4355
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 17:29:39,623 ERROR 4400 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: app.config.fetch is not a function
+    at app.beforeStart (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js:4:46)
+    at Object.callFn (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 4400
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 17:30:16,864 ERROR 4442 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: app.config.fetch is not a function
+    at app.beforeStart (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js:4:46)
+    at Object.callFn (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 4442
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-22 17:32:27,393 ERROR 4485 [-/127.0.0.1/-/42ms POST /add-active] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'data' in 'field list'
+    at Query.Sequence._packetToError (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:65:19)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:54:5
+    sql: INSERT INTO `juejin_active`(`data`, `create_time`) VALUES('[object Object]', now())
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'data' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `juejin_active`(`data`, `create_time`) VALUES('[object Object]', now())"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 4485
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-24 09:15:04,451 ERROR 934 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+    --------------------
+    at Protocol._enqueue (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ECONNREFUSED"
+errno: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 934
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-24 09:15:04,455 ERROR 934 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+    --------------------
+    at Protocol._enqueue (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ECONNREFUSED"
+errno: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 934
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-24 10:22:06,593 ERROR 982 nodejs.ClusterClientNoResponseError: client no response in 292531ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 982
+hostname: wangzhiqiangdeMacBook-Air.local
+
+2018-12-24 11:14:10,082 ERROR 983 [-/127.0.0.1/-/64ms POST /add-active] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '2' for key 'PRIMARY'
+    at Query.Sequence._packetToError (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:65:19)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:54:5
+    sql: INSERT INTO `juejin_active`(`id`, `content`, `create_time`) VALUES(2, '1', now())
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '2' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `juejin_active`(`id`, `content`, `create_time`) VALUES(2, '1', now())"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_DUP_ENTRYError"
+pid: 983
+hostname: wangzhiqiangdeMacBook-Air.local
+

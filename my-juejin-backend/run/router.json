@@ -82,6 +82,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/add-active",
+    "regexp": "/^\\/add-active(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/set-user",
     "regexp": "/^\\/set-user(?:\\/(?=$))?$/",
     "stack": [

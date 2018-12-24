@@ -7,6 +7,7 @@ module.exports = app =>{
 
     router.get('/get-user',controller.user.getUser);
     router.post('/add-user',controller.user.addUser);
+    router.post('/add-active',controller.user.addActive);
     router.post('/set-user',controller.user.setUser);
     
     
