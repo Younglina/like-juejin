@@ -34,6 +34,14 @@ module.exports = (appInfo) => {
                     password: 'root',
                     database: 'my-local',
                     charset: 'utf8mb4'
+                },
+                serve: {
+                    host: '127.0.0.1',
+                    port: '3306',
+                    user: 'root',
+                    password: 'Wangzhiqiang.1',
+                    database: 'my-data',
+                    charset: 'utf8mb4'
                 }
             }
         }
