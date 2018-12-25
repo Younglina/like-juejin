@@ -198,14 +198,6 @@
           "password": "<String len: 4>",
           "database": "my-local",
           "charset": "utf8mb4"
-        },
-        "myserve": {
-          "host": "127.0.0.1",
-          "port": "3306",
-          "user": "root",
-          "password": "<String len: 14>",
-          "database": "my-data",
-          "charset": "utf8mb4"
         }
       }
     },

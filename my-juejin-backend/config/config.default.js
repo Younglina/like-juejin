@@ -20,7 +20,7 @@ module.exports = (appInfo) => {
         mysql: {
             clients: {
                 prod: {
-                    host: '127.0.0.1',
+                    host: 'localhost',
                     port: '3306',
                     user: 'root',
                     password: 'Wangzhiqiang.1',

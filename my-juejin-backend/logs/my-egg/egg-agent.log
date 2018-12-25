@@ -966,3 +966,13 @@
 2018-12-25 09:03:50,310 INFO 780 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
 2018-12-25 09:03:50,310 INFO 780 [egg-watcher:agent] watcher start success
 2018-12-25 09:03:50,341 INFO 780 [egg:core] dump config after ready, 7ms
+2018-12-25 09:15:51,398 INFO 1191 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-25 09:15:51,627 INFO 1191 [egg:core] dump config after load, 9ms
+2018-12-25 09:15:51,713 INFO 1191 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-25 09:15:51,713 INFO 1191 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-25 09:15:51,713 INFO 1191 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-25 09:15:51,713 INFO 1191 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-25 09:15:51,713 INFO 1191 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-25 09:15:51,713 INFO 1191 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-25 09:15:51,714 INFO 1191 [egg-watcher:agent] watcher start success
+2018-12-25 09:15:51,742 INFO 1191 [egg:core] dump config after ready, 7ms

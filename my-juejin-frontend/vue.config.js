@@ -22,8 +22,8 @@ module.exports = {
                 }
             },
             '/local': {
-                // target: 'http://134.175.224.127:7002',
-                target: 'http://0.0.0.0:7002',
+                target: 'http://134.175.224.127:7002',
+                // target: 'http://0.0.0.0:7002',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/local': ''

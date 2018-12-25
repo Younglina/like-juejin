@@ -89,8 +89,6 @@ export default {
   },
   methods: {
     changePageSkip(val) {
-      console.log(val);
-      
       this.currentPage = val;
       this.fetchData();
     },
