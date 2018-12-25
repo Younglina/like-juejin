@@ -89,7 +89,7 @@ export default {
         {
           name: "专栏",
           key: "",
-          link: "/user"
+          link: "/user/zl"
         },
         {
           name: "沸点",
@@ -99,22 +99,22 @@ export default {
         {
           name: "分享",
           key: "",
-          link: "/user"
+          link: "/user/share"
         },
         {
           name: "赞",
           key: "",
-          link: "/user"
+          link: "/user/likes"
         },
         {
           name: "小册",
           key: "",
-          link: "/user"
+          link: "/user/xiaoce"
         },
         {
           name: "更多",
           key: "",
-          link: "/user"
+          link: "/user/more"
         }
       ]
     };

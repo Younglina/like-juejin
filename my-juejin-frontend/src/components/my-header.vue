@@ -64,10 +64,10 @@ export default {
     };
   },
   mounted() {
-    this.axios.get("/local/category", {}).then(res => {
+    this.axios.get("http://134.175.224.127:7002/category", {}).then(res => {
       this.cateList = res.data.result.list;
     });
-    this.axios.get("/local/get-user",{
+    this.axios.get("http://134.175.224.127:7002/get-user",{
       params: {
         id: 2
       }

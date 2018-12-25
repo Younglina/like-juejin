@@ -20,7 +20,7 @@
             </div>
           </div>
         </li>
-        <li v-for="(item,key) of user" v-if="key != 'avator' " :key="key">
+        <li v-for="(item,key) of user" v-if="Object.keys(keyName).includes(key) && key !='avator' " :key="key">
           <span class="item-keys">{{keyName[key]}}</span>
           <div class="center-div">
             <input
@@ -74,7 +74,7 @@ export default {
   methods: {
     getUser() {
       this.axios
-        .get("/local/get-user", {
+        .get("http://134.175.224.127:7002/get-user", {
           params: {
             id: 2
           }
@@ -90,7 +90,7 @@ export default {
         return;
       }
       this.axios
-        .post("/local/set-user", {
+        .post("http://134.175.224.127:7002/set-user", {
           data: {
             id: 2,
             [key]: this.user[key]

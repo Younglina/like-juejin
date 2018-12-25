@@ -52,7 +52,7 @@ export default {
   },
   mounted(){
       this.user = this.$store.getters.userInfo;
-      this.axios.get('/local/get-user-pins?id='+2).then(res=>{
+      this.axios.get('http://134.175.224.127:7002/get-user-pins?id='+2).then(res=>{
           this.lists = res.data.pins
       })
   }

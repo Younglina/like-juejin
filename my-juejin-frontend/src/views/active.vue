@@ -126,7 +126,7 @@
       submitActive(){
         this.isNotEmpty = true;
         this.pushStatus = '发布中...'
-        this.axios.post("/local/add-active",{
+        this.axios.post("http://134.175.224.127:7002/add-active",{
           data: {
             user_id: 2,
             content:this.content

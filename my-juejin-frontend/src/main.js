@@ -13,7 +13,7 @@ Vue.prototype.axios = axios
 
 Vue.config.productionTip = false
 // Vue.use(ElementUI)
-Vue.use(VueCookie)
+// Vue.use(VueCookie)
 Vue.use(WPubUI)
 new Vue({
   router,
