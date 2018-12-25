@@ -884,3 +884,85 @@
 2018-12-24 18:00:21,045 INFO 5387 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
 2018-12-24 18:00:21,046 INFO 5387 [egg-watcher:agent] watcher start success
 2018-12-24 18:00:21,091 INFO 5387 [egg:core] dump config after ready, 8ms
+2018-12-24 18:17:55,755 INFO 5667 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-24 18:17:56,044 INFO 5667 [egg:core] dump config after load, 16ms
+2018-12-24 18:17:56,153 INFO 5667 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-24 18:17:56,153 INFO 5667 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-24 18:17:56,154 INFO 5667 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-24 18:17:56,154 INFO 5667 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-24 18:17:56,154 INFO 5667 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-24 18:17:56,154 INFO 5667 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-24 18:17:56,156 INFO 5667 [egg-watcher:agent] watcher start success
+2018-12-24 18:17:56,197 INFO 5667 [egg:core] dump config after ready, 16ms
+2018-12-24 18:19:56,344 INFO 5711 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-24 18:19:56,621 INFO 5711 [egg:core] dump config after load, 14ms
+2018-12-24 18:19:56,709 INFO 5711 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-24 18:19:56,709 INFO 5711 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-24 18:19:56,710 INFO 5711 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-24 18:19:56,710 INFO 5711 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-24 18:19:56,710 INFO 5711 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-24 18:19:56,710 INFO 5711 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-24 18:19:56,711 INFO 5711 [egg-watcher:agent] watcher start success
+2018-12-24 18:19:56,746 INFO 5711 [egg:core] dump config after ready, 14ms
+2018-12-24 18:20:49,488 INFO 5754 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-24 18:20:49,567 INFO 5754 [egg:core] dump config after load, 5ms
+2018-12-24 18:20:49,610 INFO 5754 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-24 18:20:49,610 INFO 5754 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-24 18:20:49,610 INFO 5754 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-24 18:20:49,610 INFO 5754 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-24 18:20:49,611 INFO 5754 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-24 18:20:49,611 INFO 5754 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-24 18:20:49,611 INFO 5754 [egg-watcher:agent] watcher start success
+2018-12-24 18:20:49,649 INFO 5754 [egg:core] dump config after ready, 12ms
+2018-12-24 18:25:59,601 INFO 5828 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-24 18:25:59,833 INFO 5828 [egg:core] dump config after load, 7ms
+2018-12-24 18:25:59,925 INFO 5828 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-24 18:25:59,925 INFO 5828 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-24 18:25:59,925 INFO 5828 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-24 18:25:59,925 INFO 5828 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-24 18:25:59,925 INFO 5828 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-24 18:25:59,925 INFO 5828 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-24 18:25:59,926 INFO 5828 [egg-watcher:agent] watcher start success
+2018-12-24 18:25:59,951 INFO 5828 [egg:core] dump config after ready, 9ms
+2018-12-25 09:00:24,535 INFO 623 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-25 09:00:24,747 INFO 623 [egg:core] dump config after load, 6ms
+2018-12-25 09:00:24,829 INFO 623 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-25 09:00:24,829 INFO 623 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-25 09:00:24,830 INFO 623 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-25 09:00:24,830 INFO 623 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-25 09:00:24,830 INFO 623 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-25 09:00:24,830 INFO 623 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-25 09:00:24,831 INFO 623 [egg-watcher:agent] watcher start success
+2018-12-25 09:00:24,856 INFO 623 [egg:core] dump config after ready, 8ms
+2018-12-25 09:01:49,700 INFO 692 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-25 09:01:49,808 INFO 692 [egg:core] dump config after load, 14ms
+2018-12-25 09:01:49,849 INFO 692 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-25 09:01:49,849 INFO 692 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-25 09:01:49,850 INFO 692 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-25 09:01:49,850 INFO 692 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-25 09:01:49,850 INFO 692 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-25 09:01:49,850 INFO 692 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-25 09:01:49,851 INFO 692 [egg-watcher:agent] watcher start success
+2018-12-25 09:01:49,881 INFO 692 [egg:core] dump config after ready, 7ms
+2018-12-25 09:03:11,323 INFO 736 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-25 09:03:11,403 INFO 736 [egg:core] dump config after load, 5ms
+2018-12-25 09:03:11,444 INFO 736 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-25 09:03:11,444 INFO 736 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-25 09:03:11,445 INFO 736 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-25 09:03:11,445 INFO 736 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-25 09:03:11,445 INFO 736 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-25 09:03:11,445 INFO 736 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-25 09:03:11,446 INFO 736 [egg-watcher:agent] watcher start success
+2018-12-25 09:03:11,483 INFO 736 [egg:core] dump config after ready, 12ms
+2018-12-25 09:03:37,199 INFO 736 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":7073006,"size":1279,"blocks":8,"atimeMs":1545699817136.7966,"mtimeMs":1545699817137.1406,"ctimeMs":1545699817137.1406,"birthtimeMs":1544494229637.0803,"atime":"2018-12-25T01:03:37.137Z","mtime":"2018-12-25T01:03:37.137Z","ctime":"2018-12-25T01:03:37.137Z","birthtime":"2018-12-11T02:10:29.637Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-12-25 09:03:37,406 WARN 736 [agent:development] reload worker because /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config/config.default.js change
+2018-12-25 09:03:50,171 INFO 780 [egg:logger] init all loggers with options: {"dir":"/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/logs/my-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-25 09:03:50,265 INFO 780 [egg:core] dump config after load, 8ms
+2018-12-25 09:03:50,309 INFO 780 [egg-watcher] Start watching: ["/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy","/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"]
+2018-12-25 09:03:50,309 INFO 780 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app"
+2018-12-25 09:03:50,310 INFO 780 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/config"
+2018-12-25 09:03:50,310 INFO 780 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks"
+2018-12-25 09:03:50,310 INFO 780 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/mocks_proxy"
+2018-12-25 09:03:50,310 INFO 780 [egg-watcher] Start watching: "/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app.js"
+2018-12-25 09:03:50,310 INFO 780 [egg-watcher:agent] watcher start success
+2018-12-25 09:03:50,341 INFO 780 [egg:core] dump config after ready, 7ms
