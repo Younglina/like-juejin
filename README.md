@@ -1,21 +1,35 @@
 看了egg.js后突然就想搞个全栈的项目玩玩，又喜欢在掘金上逛，所以就开发了这个项目。虽说vue3.0还没定下来，但已经能用了，喜欢它的直接在网页上搞项目，所以就用了3。  
-[GIT地址](https://github.com/Izayawww/like-juejin)，项目刚开始开发2天，只做了首页，和点击标签显示对应内容、修改个人信息、图片上传腾讯云
-### TODO
-○ 后面会尽量完善的，暂时就不一一列举，下一步把详情也弄出来。  
+[GIT地址](https://github.com/Izayawww/like-juejin)  
+[预览地址](http://lucaswww.coding.me/myjuejin/#/)有些地方用的假数据
 
 ### 已完成
 ● 首页标签分类预览  
 ● 修改个人信息  
-● 图片上传
+● 图片上传  
+● 文章详情  
+● 发布沸点
 
 ### 预览
 
 ![](https://user-gold-cdn.xitu.io/2018/12/19/167c4be724eefa6a?w=1436&h=716&f=png&s=133630)
 
 ![](https://user-gold-cdn.xitu.io/2018/12/19/167c4bedac9c69a2?w=1435&h=724&f=png&s=86065)
-18/12/19 18
+18/12/19 18 文章详情1.0
 ![](https://user-gold-cdn.xitu.io/2018/12/19/167c5f984a643f16?w=1440&h=831&f=png&s=158671)
-文章详情1.0
+
+18/12/20 11 文章详情2.0
+![](https://user-gold-cdn.xitu.io/2018/12/20/167c9a3dfbd54631?w=1434&h=831&f=png&s=210388)
+
+18/12/21 10
+昨天把服务器弄好了
+http://134.175.224.127:8081/
+访问会很慢后面再慢慢弄，正好把域名也弄好
+
+18/12/21 22 动态页面1.0
+![](https://user-gold-cdn.xitu.io/2018/12/21/167d13aa0f0ece1a?w=1920&h=1058&f=png&s=175000)
+
+18/12/24 11 动态页面2.0 增加实时发布功能
+![](https://user-gold-cdn.xitu.io/2018/12/24/167de3ce9fe45791?w=1920&h=1080&f=png&s=325413)
 ### 项目包含
 1. [vue3.0](https://cli.vuejs.org/zh/guide/prototyping.html)
 2. [egg.js](https://eggjs.org/zh-cn/intro/quickstart.html)
@@ -109,4 +123,4 @@ this.myCos.putObject(
       );
 ```
 
-整个项目的流程大概就是这样，好了不多说了，我要去写详情页了。
+整个项目的流程大概就是这样，好了不多说了，我要去写详情页了。3.0+
