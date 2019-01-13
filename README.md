@@ -122,5 +122,55 @@ this.myCos.putObject(
         }
       );
 ```
+#### 服务器
+1. 购买云服务器 https://cloud.tencent.com/act/campus 加购域名(很便宜的那种几十块)
+2. 解析域名 可直接选 新手快速添加
+3. 登陆服务器配置环境
+安装wget yum install -y wget
 
-整个项目的流程大概就是这样，好了不多说了，我要去写详情页了。3.0+
+安装node
+wget https://nodejs.org/dist/v10.14.2/node-v10.14.2-darwin-x64.tar.gz
+解压 tar -xvf node-v10.14.2-darwin-x64.tar.gz
+重命名 mv node-v10.14.2-darwin-x64 node
+软连接(全局命令)
+ln -s ~/node/bin/node /usr/bin/node
+ln -s ~/node/bin/npm /usr/bin/npm
+node -v
+安装git yum –y install git
+安装jdk yum -y install java
+java -version
+路径 /usr/lib/jvm
+安装tomacat yum -y install tomcat
+rpm -q tomcat
+路径 /usr/share/tomcat
+
+5 环境变量
+
+vi .bashrc
+
+填入
+JAVA_HOME=/usr/lib/jvm/java
+
+PATH=$PATH:$JAVA_HOME/bin
+
+CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+CATALINA_BASE=/usr/share/tomcat
+
+CATALINA_HOME=/usr/share/tomcat
+
+export JAVA_HOME PATH CLASSPATH CATALINA_BASE CATALINA_HOME
+
+:wq保存以后
+
+source .bashrc
+
+将你的项目放到/usr/share/tomcat/webapps 下后
+启动tomcat
+systemctl start tomcat.service
+查看
+lsof -i:8080
+
+端口重定向
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+
