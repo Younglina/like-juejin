@@ -4,6 +4,7 @@ node_modules
 /my-juejin-backend/log
 /my-juejin-backend/run
 /my-juejin-frontend/node_modules
+/my-juejin-frontend/dist
 /dist
 
 # local env files
