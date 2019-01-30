@@ -12,6 +12,6 @@ module.exports = app =>{
     router.post('/add-user',controller.user.addUser);
     router.post('/add-active',controller.user.addActive);
     
-    
+    router.get('/getMainTag',controller.rss.getMainTag);
     
 }

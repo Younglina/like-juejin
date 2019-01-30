@@ -20,20 +20,21 @@ module.exports = (appInfo) => {
         mysql: {
             clients: {
                 prod: {
-                    host: 'localhost',
+                    host: '134.175.224.127',
+                    // host: 'localhost',
                     port: '3306',
                     user: 'root',
                     password: 'Wangzhiqiang.1',
                     database: 'my-data',
                 },
-                dev: {
-                    host: '127.0.0.1',
-                    port: '3306',
-                    user: 'root',
-                    password: 'root',
-                    database: 'my-local',
-                    charset: 'utf8mb4'
-                }
+                // dev: {
+                //     host: '127.0.0.1',
+                //     port: '3306',
+                //     user: 'root',
+                //     password: 'root',
+                //     database: 'my-local',
+                //     charset: 'utf8mb4'
+                // }
             }
         }
     }

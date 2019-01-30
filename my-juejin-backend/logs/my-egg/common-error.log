@@ -1611,3 +1611,104 @@ name: "ER_ACCESS_DENIED_ERRORError"
 pid: 781
 hostname: wangzhiqiangdeMacBook-Air.local
 
+2019-01-29 18:01:37,439 ERROR 20204 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+    --------------------
+    at Protocol._enqueue (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ECONNREFUSED"
+errno: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 20204
+hostname: Izaya.local
+
+2019-01-29 18:03:57,565 ERROR 20350 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+    --------------------
+    at Protocol._enqueue (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ECONNREFUSED"
+errno: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 20350
+hostname: Izaya.local
+
+2019-01-29 18:05:02,989 ERROR 20418 [-/127.0.0.1/-/6ms GET /getMainTag] nodejs.TypeError: ctx.service.rss.getMainTag is not a function
+    at RssController.getMainTag (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/app/controller/rss.js:7:46)
+    at Object.callFn (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 20418
+hostname: Izaya.local
+
+2019-01-30 10:36:36,967 ERROR 3808 [-/127.0.0.1/-/137ms GET /getMainTag] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'desc' in 'order clause'
+    at Query.Sequence._packetToError (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:65:19)
+    at /Users/lucas/Documents/MyProject/my-juejin/my-juejin-backend/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `main_tag` ORDER BY `root`, `desc`
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'desc' in 'order clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `main_tag` ORDER BY `root`, `desc`"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 3808
+hostname: Izaya.local
+
